@@ -18,7 +18,7 @@ REFERENCES means that the Foreign key corresponds to the primary key of the othe
 
 -- ON DELETE CASCADE means that if this key is deleted, it will delete values on all the other tables with this key - did not use.. 
 4. https://www.w3schools.com/sql/sql_quickref.asp
-5. 
+5. bamazon activity in class on 12.17.2020
 6. 
 
 ### Task List for Project
@@ -27,7 +27,8 @@ REFERENCES means that the Foreign key corresponds to the primary key of the othe
     - [x] mysql
     - [x] nodemon 
 - [x] Create a proper format for the file layout - **completed 12/17/2020
-    - [x] controller, public, routes, server.js
+    - [x] controller, public, routes, index.js
+    - [] seed.sql used to populate the database
 - [] Database schema 
 -   [] 1. department
 -   [] 2. role
@@ -48,7 +49,6 @@ REFERENCES means that the Foreign key corresponds to the primary key of the othe
 3. use console.table
 4. seperate files for functions
 5. SQL Join
-6. seed.sql used to populate the database
 
 ### Intial Commit 12/17/2020S
 1. created the file layout
