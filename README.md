@@ -1,9 +1,12 @@
 # Employee-Tracker-MySQL-HW12
 This solution is an interface that make it easy for non-developers to view and interact with information stored in databases. Often these interfaces are known as **C**ontent **M**anagement **S**ystems.
 
-## Links
+## Demo
+![HW12  Emply Tracker_MySQL_Demo](https://user-images.githubusercontent.com/30843888/102704645-38091880-424c-11eb-8eac-a259601d6c7d.gif)
+![HW12  Emply Tracker_Terminal_Demo](https://user-images.githubusercontent.com/30843888/102704654-553de700-424c-11eb-8a4b-7209b4f9b011.gif)
 
 ## Repo
+![Repo](https://github.com/JGilb28-7/Employee-Tracker-MySQL-HW12.git)
 
 ## List of Resources used for Project
 1. class activity TwoTable used as ref. for creating the multiple tables 
@@ -34,11 +37,14 @@ ON DELETE CASCADE means that if this key is deleted, it will delete values on al
 -   [x] 2. role
 -   [x] 3. employee
 -   [x] 4. test conection to the DB - **12.18.2020 complete $ node employeeTracker.js connected as id 29
-- [] Command Line Application complete the following for the schema list above
--   [] 1. Add 
--   [X] 2. view
+- [/] Command Line Application complete the following for the schema list above
+-   [x] 1. view
+-    [x] a. view employees
+-    [x] b. view department
+-    [x] c. view role
+-   [] 2. add
 -   [] 3. update
-- [] Bonus* if your able to 
+- [NA] Bonus* if your able to 
 -   [] update employee manager
 -   [] view employee by manager
 -   [] delete - dept, roles, and employees
@@ -46,12 +52,13 @@ ON DELETE CASCADE means that if this key is deleted, it will delete values on al
 - [] Other Items
 -   [x] Change Password for the SQL DB
 
-### commands & use:
-1. MySql NPM Package
-2. InquirerJs NPM Package
-3. use console.table
-4. seperate files for functions
-5. SQL Join
+### commands & use: 
+1. use Node employeeTracker.js in terminal
+2. MySql NPM Package
+3. InquirerJs NPM Package
+4. use console.table
+5. seperate files for functions
+6. SQL Join
 
 ### Intial Commit 12/17/2020S
 1. created the file layout
