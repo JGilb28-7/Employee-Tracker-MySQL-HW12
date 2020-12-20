@@ -16,7 +16,7 @@ To clarify, if you have children records attached to a primary key entry and you
 
 REFERENCES means that the Foreign key corresponds to the primary key of the other table
 
--- ON DELETE CASCADE means that if this key is deleted, it will delete values on all the other tables with this key - did not use.. 
+ON DELETE CASCADE means that if this key is deleted, it will delete values on all the other tables with this key - did not use.. 
 4. https://www.w3schools.com/sql/sql_quickref.asp
 5. bamazon activity in class on 12.17.2020
 6. 
@@ -28,20 +28,23 @@ REFERENCES means that the Foreign key corresponds to the primary key of the othe
     - [x] nodemon 
 - [x] Create a proper format for the file layout - **completed 12/17/2020
     - [x] controller, public, routes, index.js
-    - [] seed.sql used to populate the database
-- [] Database schema 
--   [] 1. department
--   [] 2. role
--   [] 3. employee
+    - [x] seed.sql used to populate the database
+- [x] Database schema 
+-   [x] 1. department
+-   [x] 2. role
+-   [x] 3. employee
+-   [x] 4. test conection to the DB - **12.18.2020 complete $ node employeeTracker.js connected as id 29
 - [] Command Line Application complete the following for the schema list above
 -   [] 1. Add 
--   [] 2. view
+-   [X] 2. view
 -   [] 3. update
--[] Bonus* if your able to 
+- [] Bonus* if your able to 
 -   [] update employee manager
 -   [] view employee by manager
 -   [] delete - dept, roles, and employees
-[] total budget of a dept - combined salaries
+- [] total budget of a dept - combined salaries
+- [] Other Items
+-   [x] Change Password for the SQL DB
 
 ### commands & use:
 1. MySql NPM Package
